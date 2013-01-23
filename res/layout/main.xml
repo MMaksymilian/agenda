@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+
+  <!--    <Button android:layout_width="fill_parent" android:layout_height="fill_parent"
+              android:text="kliknij" android:onClick="startCustomActivity"/>-->
+  <com.exina.android.calendar.CalendarView
+      android:id="@+id/calendar"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      />
+  <TextView
+      android:id="@+id/textMessage"
+      android:layout_below="@id/calendar"
+      android:layout_height="wrap_content"
+      android:layout_width="fill_parent"
+      android:text="@string/choose_date"
+      android:padding="2px"/>
+
+  <GridView
+      android:layout_below="@id/textMessage"
+      android:id="@+id/gridView"
+      android:numColumns="1"
+      android:scrollY="0px"
+      android:stretchMode="columnWidth"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:smoothScrollbar="true"
+      android:listSelector="#55AA44"
+      android:scrollbars="vertical"
+      android:layout_margin="10px"
+      android:textColor="#112911"
+      android:background="#EEFFEE"/>
+
+</RelativeLayout>
+

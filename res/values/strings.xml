@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">kalendarz</string>
+  <string name="search_title">wyszukaj</string>
+  <string name="search_hint">nawigacja</string>
+  <string name="pick_date">wybierz datę</string>
+  <string name="share">wyszukaj</string>
+  <string name="choose_date">wybierz inny miesiąc</string>
+</resources>
