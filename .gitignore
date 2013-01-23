@@ -1,7 +1,6 @@
 # built application files
-*.apk
 *.ap_
-
+*.impl
 # files for the dex VM
 *.dex
 
@@ -9,7 +8,7 @@
 *.class
 
 # generated files
-bin/
+.idea/
 gen/
 
 # Local configuration file (sdk path, etc)
