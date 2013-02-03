@@ -76,8 +76,8 @@ public class MainActivity extends Activity implements CalendarView.OnCellTouchLi
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-        ActionBar actionBar = getActionBar();
-        actionBar.show();
+//        ActionBar actionBar = getActionBar();
+//        actionBar.show();
 /*
         handleIntent(getIntent());
 */

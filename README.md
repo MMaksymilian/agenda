@@ -1,4 +1,0 @@
-agenda
-======
-
-kalendarz na androida
